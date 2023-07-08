@@ -1,0 +1,14 @@
+var val=new Array("Manu","chunu","kanu");
+var val1=val.shift();
+document.write(val1+"<br>");
+document.write(val+"<br>");
+val.unshift("dunu");
+document.write(val+"<br>");
+val.splice(1,0,"runu");
+document.write(val+"<br>");
+var val2=val.splice(1,2);
+document.write(val2+"<br>");
+document.write(val+"<br>");
+newval=val.slice(1);
+document.write(val+"<br>");
+document.write(newval+"<br>");

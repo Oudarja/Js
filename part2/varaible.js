@@ -1,0 +1,11 @@
+var name="Oudarja";
+document.write(name+"<br>");
+name="Oishy";
+document.write(name+"<br>");
+var num=123;
+document.write(num+"<br>");
+var num=17.8;
+document.write(num+"<br>");
+var hobe=true;
+document.write(hobe+"<br>");
+document.write(num+" "+hobe);
